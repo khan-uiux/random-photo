@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.image-container {
+    text-align: center;
+    background-color: #951515;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 23%;
+    margin: 10px 10px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 29%);
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    background: aqua;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container img {
+        width: 100%;
+    }
+}
